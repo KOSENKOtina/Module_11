@@ -1,0 +1,355 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Navigating through header item",
+    "line": 2,
+    "id": "navigating-through-header-item",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "uri": "test\\features\\vaccancies_page.feature",
+    "elements": [
+      {
+        "id": "navigating-through-header-item;check-page-title",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Check page title",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open \"careers.epam.ua\"",
+            "match": {
+              "location": "test\\step_definitions\\browser_steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4492000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Page title should be \"EPAM Ukraine - найбільша ІТ-компанія в Україні | Вакансії і робота для розробників ПЗ\"",
+            "match": {
+              "location": "test\\step_definitions\\browser_steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I wait 5 secs",
+            "match": {
+              "location": "test\\step_definitions\\browser_steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5006000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigating-through-header-item;check-sections-in-header",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Check sections in header",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "\"ВАКАНСІЇ\" should be present in the header on 1 place",
+            "match": {
+              "location": "test\\step_definitions\\browser_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigating-through-header-item;check-sections-in-header",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Check sections in header",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "\"НАВЧАННЯ\" should be present in the header on 2 place",
+            "match": {
+              "location": "test\\step_definitions\\browser_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigating-through-header-item;check-sections-in-header",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Check sections in header",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "\"БЛОГ\" should be present in the header on 3 place",
+            "match": {
+              "location": "test\\step_definitions\\browser_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigating-through-header-item;check-sections-in-header",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Check sections in header",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "\"ПОДІЇ\" should be present in the header on 4 place",
+            "match": {
+              "location": "test\\step_definitions\\browser_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigating-through-header-item;check-sections-in-header",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Check sections in header",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "\"ПРО КОМПАНІЮ\" should be present in the header on 5 place",
+            "match": {
+              "location": "test\\step_definitions\\browser_steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "navigating-through-header-item;navigate-to-vacancies-page",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Navigate to vacancies page",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I open \"careers.epam.ua\"",
+            "match": {
+              "location": "test\\step_definitions\\browser_steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1896000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click on nav item with the text Вакансії",
+            "match": {
+              "location": "test\\step_definitions\\browser_steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1701000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I am taken to \"careers.epam.ua/vacancies\"",
+            "match": {
+              "location": "test\\step_definitions\\browser_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "Page title should be \"Вакансії для програмістів: Java, JavaScript, .NET, DevOps, Automated Testing, Python, BigData в EPAM Україна\"",
+            "match": {
+              "location": "test\\step_definitions\\browser_steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
